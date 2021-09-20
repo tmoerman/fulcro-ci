@@ -5,7 +5,7 @@ Available at Docker Hub: https://hub.docker.com/repository/docker/tmoerman/fulcr
 
 ### Notes
 How to update:
-* clone this repo
+* clone this repo (using the ssh option! password authentication is discouraged by github)
 * edit `Dockerfile`
 * rebuild the image `docker build -t fulcro-ci .`
 * `docker login` -> provide username/password
