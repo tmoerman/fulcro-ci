@@ -1,3 +1,3 @@
 FROM clojure
 MAINTAINER tmoerman
-RUN apt-get -y update && apt-get install -y npm chromium curl
+RUN apt-get -y update && apt-get install -y npm chromium curl git
