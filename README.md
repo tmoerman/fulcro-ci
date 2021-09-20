@@ -8,5 +8,5 @@ How to update:
 * clone this repo
 * edit `Dockerfile`
 * rebuild the image `docker build -t fulcro-ci .`
-* docker login -> provide username/password
+* `docker login` -> provide username/password
 * `docker push fulcro-ci:latest`
